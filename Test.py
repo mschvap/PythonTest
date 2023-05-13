@@ -14,3 +14,7 @@ except URLError as e:
     print('Status code: ' + str(e.reason))
     mensaje = str(e.reason)
 
+if mensaje == '200':
+    exit(0)
+else:
+    exit(1)
