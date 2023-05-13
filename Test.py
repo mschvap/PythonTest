@@ -1,7 +1,7 @@
 from urllib.request import urlopen
 from urllib.error import URLError,HTTPError
 
-url = "https://www.google.com.ar/hola.html"
+url = "https://www.google.com.ar/"
 
 try:
     response = urlopen(url)
