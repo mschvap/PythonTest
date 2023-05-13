@@ -1,5 +1,5 @@
 from urllib.request import urlopen
-from urllib.error import URLError, HTTPError
+from urllib.error import URLError,HTTPError
 
 url = "https://www.google.com.ar/"
 
@@ -11,7 +11,7 @@ except HTTPError as err:
     print('Satus code: ' + str(err.code))
     mensaje = str(err.code)
 except URLError as e:
-    print('Status code: ' + str(e.reason))
+    print('Status code: ' +str(e.reason))
     mensaje = str(e.reason)
 
 if mensaje == '200':
