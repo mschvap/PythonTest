@@ -1,0 +1,6 @@
+Para ejecutar en jenkins seguir los siguientes paso:
+
+1.- Instalar el plugin...
+2.- 
+
+Fin
